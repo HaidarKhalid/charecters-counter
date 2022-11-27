@@ -1,0 +1,79 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+}
+body {
+    box-sizing: border-box;
+    background-color: #525252;
+    color: white;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.languages {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.languages button {
+    background-color: #525252;
+    border: 0;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    cursor: pointer;
+}
+.languages button:hover {
+    text-decoration: underline;
+}
+
+.number-input {
+    width: 100px;
+    text-align: center;
+    font-size: large;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+.number-char {
+    display: inline-block;
+    font-weight: bold;
+    font-size: large;
+}
+.number-ok {
+    display: inline-block;
+    margin-top: 20px;
+    color: black;
+    background-color: antiquewhite;
+    padding: 10px 20px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: large;
+    transition: box-shadow .7s;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.212);
+}
+
+.number-ok:hover {
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.747);
+}
+
+.count {
+    display: inline-block;
+    margin-top: 20px;
+    color: black;
+    background-color: antiquewhite;
+    padding: 10px 20px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: large;
+    transition: box-shadow .7s;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.212);
+}
+.count:hover {
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.747);
+}
+.contact-me-btn {
+    color: white;
+    font-weight: bold;
+    font-size: large;
+}
