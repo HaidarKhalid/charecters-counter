@@ -6,7 +6,7 @@ let counter = document.querySelector(".counter")
 
 
 info.innerHTML = `
-<textarea class="input" cols="30" rows="5"></textarea>
+<textarea placeholder="Type something!"  class="input" cols="30" rows="5"></textarea>
 `;
 
 counter.innerHTML = `
